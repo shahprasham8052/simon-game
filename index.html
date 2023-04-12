@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="shortcut icon" href="gamefav.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+    <h1>SIMON GAME</h1>
+    <h2>The Simon game is a classic electronic memory game, where players need to repeat a sequence of colored buttons.
+        Here are the rules:</h2>
+    <div class="rules">
+        <h3>
+            <ol>
+
+                <li>The game starts when the player presses the "Start" button.</li>
+
+                <li>Simon (the game) will light up one of the four colored buttons (red, blue, green, or yellow) and
+                    emit a
+                    sound.</li>
+
+                <li>The player must repeat the sequence of the lit buttons by pressing them in the same order. For
+                    example,
+                    if Simon lights up red, the player should press the red button, and if Simon then lights up blue,
+                    the
+                    player should press red, then blue.</li>
+
+                <li>If the player correctly repeats the sequence, Simon will add another button to the sequence and
+                    repeat
+                    the process. The game continues with Simon adding one button to the sequence each time.</li>
+
+                <li>If the player makes a mistake and presses the wrong button, the game is over, and the player must
+                    start
+                    again from the beginning.</li>
+
+                <li>The game continues until the player has correctly repeated a sequence of 20 buttons, at which point
+                    they
+                    have won the game.</li>
+
+                <li>The game also has a "strict" mode, where making a mistake results in the player starting from the
+                    beginning again, regardless of how far they have progressed.</li>
+
+            </ol>
+        </h3>
+    </div>
+
+    <div>
+        <button class="button
+        " onclick="nextPage()">Click to start</button>
+    </div>
+
+
+</body>
+<script>
+    function nextPage() {
+        window.location.href = "main.html";
+    }
+</script>
+</body>
+
+</html>
